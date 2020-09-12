@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:\\Users\\spenc\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266WiFi\\src",
+                "C:\\Users\\spenc\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\**",
+                "C:\\Users\\spenc\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\**",
+                "C:\\Users\\spenc\\Documents\\Arduino\\libraries",
+                "C:\\Program Files (x86)\\Arduino\\libraries",
+                "C:\\Program Files (x86)\\Arduino\\hardware",
+                "${workspaceRoot}"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.18362.0",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64",
+            "compilerArgs": [],
+            "browse": {
+                "path": [
+                    "C:\\Program Files (x86)\\Arduino\\hardware",
+                    "C:\\Users\\spenc\\Documents\\Arduino\\libraries",
+                    "C:\\Users\\spenc\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries\\ESP8266WiFi\\src",
+                    "C:\\Users\\spenc\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\**",
+                    "C:\\Users\\spenc\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\**"
+                ]
+            },
+            "forcedInclude": []
+        }
+    ],
+    "version": 4
+}
