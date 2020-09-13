@@ -1,0 +1,26 @@
+{
+    "files.associations": {
+        "system_error": "cpp",
+        "algorithm": "cpp",
+        "xstring": "cpp",
+        "*.tcc": "cpp",
+        "string": "cpp",
+        "functional": "cpp",
+        "regex": "cpp",
+        "type_traits": "cpp",
+        "xlocmon": "cpp",
+        "xtr1common": "cpp",
+        "array": "cpp",
+        "tuple": "cpp",
+        "utility": "cpp",
+        "deque": "cpp",
+        "initializer_list": "cpp",
+        "list": "cpp",
+        "vector": "cpp",
+        "xhash": "cpp",
+        "xtree": "cpp",
+        "xutility": "cpp",
+        "unordered_map": "cpp",
+        "bitset": "cpp"
+    }
+}
