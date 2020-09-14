@@ -31,7 +31,7 @@ void setup()
 
   //set custom ip for portal
   wifiManager.setAPStaticIPConfig(IPAddress(10, 0, 1, 1), IPAddress(10, 0, 1, 1), IPAddress(255, 255, 255, 0));
-  Serial.printf("Connect to wifi device: %s to ip address: 10.0.0.1\n", APPLIANCE_NAME);
+  Serial.printf("Connect to wifi device: %s to ip address: 10.0.1.1\n", APPLIANCE_NAME);
 
   // Connect to this access point
   wifiManager.autoConnect(String(APPLIANCE_NAME).c_str());
@@ -74,7 +74,7 @@ void getCurrentUserProfile()
 void requestIdentity()
 {
   // This device will request the user for identity.
-  String path = ("/@app/auth/" + String(AUTH_ID) + "/token/device.json");
+  String path = "/@app/auth/" + String(AUTH_ID) + "/token/device.json";
   if (httpRequest(AUTH_DOMAIN, path.c_str(), &initalResponse, true, "scope=profile", false) == 200)
   {
     authCheckPeriod = initalResponse["interval"].as<int>() * 1000;
@@ -119,6 +119,8 @@ void pollAccessToken()
     {
       Serial.println("User did not authenticate in time.  Restart the device");
       delay(5000);
+
+      // A forever loop to cause the device to reboot
       while (1)
         ;
       ;
