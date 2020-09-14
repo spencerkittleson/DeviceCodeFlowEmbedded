@@ -9,6 +9,10 @@ Wifi setup uses this project: <https://github.com/tzapu/WiFiManager>
 Example workflow:
 ![Example Device Code Flow](exampleFlow.gif)
 
+Esp8266
+
+![Esp8266](esp8266.webp)
+
 ## Try it yourself
 
 Update the `MindTouchDeviceCodeFlowAppliance.ino` with MindTouch's device code arguments
